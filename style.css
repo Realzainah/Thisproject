@@ -204,9 +204,32 @@ footer ul {
 }
 footer a {
    color: blueviolet; 
-   font-size: 600;
+   font-size: 5px;
 }
 . description {
     display: flex;
     flex-direction: column;
+    }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:hover {
+  background-color: #white;
 }
