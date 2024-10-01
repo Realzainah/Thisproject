@@ -25,13 +25,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 20px;
-    border-bottom: 2px solid brown;
+  padding: 10px 24px;
+    border-bottom: 2px solid blueviolet;
 }
 
 header .logo {
-    color: blueviolet;
-    font-weight: 700;
+    color: brown;
+    font-weight: 800;
     font-size: 1.5rem;
 }
 
@@ -42,23 +42,23 @@ header ul {
 }
 
 header a {
-    color: brown;
-    font-weight: 500;
+    color: blueviolet;
+    font-weight: 600;
 }
 
 main {
     padding: 0 20px;
 }
 
-main .banner {
-    padding: 50px 0;
-    border-bottom: 1px solid brown;
-    color: blueviolet;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+main .banner{
+   padding: 50px 0; 
+   border-bottom: 1px;
+   color: blueviolet;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
 }
 
 main .banner .hero-texts {
@@ -189,24 +189,24 @@ form div {
 }
 
 form div label {
-    flex-direction: row;
+    flex-direction: column;
 }
 
 footer {
     padding: 12px 20px;
     border-top: 1px solid brown;
-    background-color: white;
-    font-size: 2rem;
-    color: blueviolet;
 }
-p {
-  color: blueviolet;  
-  font-size: 1rem;
+footer ul {
+    display: flex;
+    align-content: space-between;
+    gap : 12px;
+    flex-wrap: wrap;
 }
-div {
+footer a {
+   color: blueviolet; 
+   font-size: 600;
+}
+. description {
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-h2 {
-    gap: 2rem;
 }
